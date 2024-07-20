@@ -1,0 +1,14 @@
+* src/components/Cart.css */
+.cart {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.cart h2 {
+  margin: 0;
+}
+
+.cart p {
+  margin: 0;
+  font-size: 1.2em;
+}

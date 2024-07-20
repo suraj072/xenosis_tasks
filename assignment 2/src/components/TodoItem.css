@@ -1,0 +1,23 @@
+ /* src/components/TodoItem.css */
+ .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .todo-item .buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+  }
+  

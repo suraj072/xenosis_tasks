@@ -1,0 +1,20 @@
+ /* src/components/TodoForm.css */
+ .todo-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-form button {
+    padding: 10px;
+  }
+  
